@@ -1,0 +1,802 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ラバー・ラケット選び RandR</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body text="white" bgcolor="black">
+</body>
+  
+
+
+<div class="choose_box">
+   
+    <div id="q_01" class="fit">
+      <p style="text-align:center">
+        <font size = "7" color="white"><b>
+        卓球用具選択サイト
+        </font></b>
+    </p> 
+      <p style="text-align:center">
+        <font size = "7" color="white"><b><I>
+        R and R
+        </font></b></I>
+    </p> 
+     <p style="text-align:center">~あなたにぴったりな用具を紹介するよ~</p>
+    <ul class="flexbox fw">
+    <li class="even"><a class="btn" href="#racket_01">ラケット</a></li>
+    <li class="odd"><a class="btn" href="#rubber_01">ラバー</a></li>
+    
+    </ul>
+     </div>
+     <!-- 最初の選択肢 -->
+       
+    <div id="rubber_01" style="display: none;">
+    <p>　</p>
+    <p>　</p>
+    <p style="text-align:center">初心者？</p>
+    <ul class="flexbox fw">
+    <li class="even"><a class="btn" href="#rubber_02">YES</a></li>
+    <li class="odd"><a class="btn" href="#rubber_03">NO</a></li>
+    </ul>
+    </div>
+    <!-- 次の選択肢 -->
+      
+    <div id="rubber_02" style="display: none;">
+    <p>　</p>
+    <p>　</p>
+    <p style="text-align:center">フォア打ちできる？</p>
+    <ul class="flexbox fw">
+    <li class="even"><a class="btn" href="#rubber_04">YES</a></li>
+    <li class="odd"><a class="btn" href="#rubber_05">NO</a></li>
+    </ul>
+    </div>
+    <!-- 次の選択肢 -->
+       
+    <div id="rubber_03" style="display: none;">
+    <p>　</p>
+    <p>　</p>
+    <p style="text-align:center">安定して3球目攻撃できる？</p>
+    <ul class="flexbox fw">
+    <li class="even"><a class="btn" href="#rubber_06">YES</a></li>
+    <li class="odd"><a class="btn" href="#rubber_04">NO</a></li>
+    </ul>
+    </div>
+    <!-- 次の選択肢 -->
+       
+     <div id="rubber_04" style="display: none;">
+    <p>　</p>
+    <p>　</p>
+    <p style="text-align:center">サーブに回転をかけることができる？</p>
+    <ul class="flexbox fw">
+    <li class="even"><a class="btn" href="#rubber_08">YES</a></li>
+    <li class="odd"><a  class="btn" href="#rubber_09">NO</a></li>
+    </ul>
+    </div>
+    <!-- 次の選択肢 -->
+
+    <div id="rubber_05" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">ドライブ打てる？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_09">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_11">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_06" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">ボールに回転をかけるのは得意？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_12">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_08">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_08" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">レシーブはツッツキが多い？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_14">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_15">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_12" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">自分から積極的に打っていくタイプ？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_16">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_14">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_14" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">ブロックよく使う？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_18">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_19">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_15" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">自分から積極的に攻撃するタイプ？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_19">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_21">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_16" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">試合ではカウンターも使う？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_22">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_23">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_18" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">値段は高くてもいい？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_24">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_25">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_19" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">どんな場面でも強気にいける？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_26">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_27">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+  
+
+    <div id="rubber_22" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">値段は高くてもいい？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_30">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_31">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_27" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">カット主戦型？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_32">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_33">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="rubber_21" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">ラバーは重い方がいい？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#rubber_34">YES</a></li>
+      <li class="odd"><a  class="btn" href="#rubber_35">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+       
+     <div id="rubber_24" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>テナジー05</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/05800.html"target="_blank"><img src="tenergy05.jpeg" alt="テナジー05" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/05800.html</a> </div>
+       <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+              <summary>分析結果</summary>
+              <div class="details-content">
+                <p>攻めも守りもどちらも意識しているあなたには テナジー05!<br>安定感のあるラバーなので自分から積極的に攻撃していこう！
+
+                </p>
+              </div>
+            </details>
+    </div>
+      
+    <!-- 選択肢の答え① -->
+       
+      <div id="rubber_31" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>ファスタークG1</h4>
+            <p></p>
+            
+            <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <div class="box"><a href="https://www.nittaku.com/products/rubbers/post-3"target="_blank"><img src="fastarcg1.jpeg" alt="ファスタークG1" width="300" height="300" style="display: block; margin: auto;">出典：https://www.nittaku.com/products/rubbers/post-3</a></div> 
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+              <summary>分析結果</summary>
+              <div class="details-content">
+                <p>回転をかけられて自分からも攻められるあなたには ファスタークG1!<br>グリップ力を活かした高回転のボールで勝利を掴もう!</p>
+              </div>
+            </details>
+          
+    </div>
+
+    　<div id="rubber_30" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>ディグニクス05</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/06040.html"target="_blank"><img src="dignics05.jpeg" alt="ディグニクス05" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/06040.html</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>回転をかけるのが苦じゃないあなたにはスピードの出る ディグニクス05!<br>積極的に攻めていこう!</p>
+          </div>
+      </details>
+    </div>
+
+      <div id="rubber_25" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>ロゼナ</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/06020.html"target="_blank"><img src="rozena.jpeg" alt="ロゼナ" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/06020.html</a> </div>
+            <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+                <summary>分析結果</summary>
+                <div class="details-content">
+                  <p>攻めも守りも意識しているあなたには安定感のある ロゼナ!<br>回転はかけやすいのでスピードを意識してプレイしよう！</p>
+                </div>
+            </details>
+            
+    </div>
+
+    <div id="rubber_26" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>ラクザ PO</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.yasakajp.com/items/rakza_po/"target="_blank"><img src="rakza_po.jpeg" alt="ラクザ PO" width="300" height="300" style="display: block; margin: auto;">出典：https://www.yasakajp.com/items/rakza_po/</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>どんな場面でも強気にいけるあなたは ラクザPO!<br>表ソフトのナックル性とスピードを活かして戦おう!</p>
+          </div>
+      </details>
+      
+</div>
+      
+
+        <div id="rubber_32" style="display: none;">
+          <p style="text-align:center">あなたにおすすめなのは…</p>
+          <h4>カール P1V</h4>
+          <p></p>
+          
+          <div class="box"><a href="https://www.victas.com/ja_jp/products/rubber/longpimples/curl-p1v"target="_blank"><img src="curl_p1v.jpeg" alt="カール P1V" width="300" height="300" style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/rubber/longpimples/curl-p1v</a> </div>
+          <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+          <p>　</p>
+          <p>　</p>
+          <p>　</p>
+          <p>　</p>
+          <details>
+              <summary>分析結果</summary>
+              <div class="details-content">
+                <p>カット主戦型のあなたには カールP1V!<br>相手のドライブを吸収して安定したカットを返すことができるよ!</p>
+              </div>
+          </details>
+          
+  </div>
+
+    <div id="rubber_23" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>キョウヒョウ NEO3</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.nittaku.com/products/rubbers/post-20"target="_blank"><img src="kyouhyou_neo3.jpeg" alt="キョウヒョウ NEO3" width="300" height="300" style="display: block; margin: auto;">出典：https://www.nittaku.com/products/rubbers/post-20</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>カウンターが苦手なあなたには キョウヒョウNEO3!<br>粘着ラバーの硬さと回転のかけやすさを利用してカウンターしていこう!
+            </p>
+          </div>
+      </details>
+      
+  </div>
+    <div id="rubber_35" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>ヴェンタス エキストラ</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.victas.com/ja_jp/products/rubber/pinplesin/tension/ventus-extra"target="_blank"><img src="ventus_extra.jpeg" alt="ヴェンタス エキストラ" width="300" height="300"  style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/rubber/pinplesin/tension/ventus-extra</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>ある程度の技術が身に付いてきたあなたには ヴェンタスエキストラ!<br>安定感抜群なラバーを使ってさらなる高みを目指そう!</p>
+          </div>
+      </details>
+      
+    </div>
+
+   <div id="rubber_34" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>ラクザ X</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.yasakajp.com/items/rakza-x/"target="_blank"><img src="rakzax.jpeg" alt="ラクザ X" width="300" height="300" style="display: block; margin: auto;">出典：https://www.yasakajp.com/items/rakza-x/</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>大会でうまくプレイできないあなたには回転のかけやすい ラクザX!<br>大会では回転をかけることを意識してプレイしてみよう!</p>
+          </div>
+      </details>
+      
+    </div>
+
+    <div id="rubber_33" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>V>15 エキストラ</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.victas.com/ja_jp/products/rubber/pinplesin/tension/v-15-extra"target="_blank"><img src="v15_extra.png" alt="V>15 エキストラ" width="300" height="300" style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/rubber/pinplesin/tension/v-15-extra</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>自分から積極的に攻撃できないあなたには攻守安定した V15エキストラ!<br>入れることを意識してガンガン振っていこう!</p>
+          </div>
+      </details>
+      
+    </div>
+
+    <div id="rubber_09" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>ヴェガ X</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://xiom.jp/?pid=150436838"target="_blank"><img src="vega10.png" alt="ヴェガ X" width="300" height="300" style="display: block; margin: auto;">出典：https://xiom.jp/?pid=150436838</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>まだまだ発展途上なあなたには ヴェガX!<br>柔らかいラバーでコントロールしやすく回転もかけやすいため中級技術の習得に最適!</p>
+          </div>
+      </details>
+      
+    </div>
+
+  <div id="rubber_11" style="display: none;">
+      <p style="text-align:center">あなたにおすすめなのは…</p>
+      <h4>マーク Ⅴ</h4>
+      <p></p>
+      
+      <div class="box"><a href="https://www.yasakajp.com/items/markv/"target="_blank"><img src="markv.jpeg" alt="マーク Ⅴ" width="300" height="300" style="display: block; margin: auto;">出典：https://www.yasakajp.com/items/markv/</a> </div>
+      <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <p>　</p>
+      <details>
+          <summary>分析結果</summary>
+          <div class="details-content">
+            <p>初心者のあなたには マークV!<br>これから色々な技術を身につけていくには柔らかく扱いやすいものがおすすめ!</p>
+          </div>
+      </details>
+      
+    </div>
+    <!-- 選択肢の答え② -->
+
+    <div id="racket_01" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">初心者？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#racket_02">YES</a></li>
+      <li class="odd"><a class="btn" href="#racket_03">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+    <div id="racket_02" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">ドライブ打てる？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#racket_04">YES</a></li>
+      <li class="odd"><a class="btn" href="#racket_05">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+    <div id="racket_03" style="display: none;">
+      <p>　</p>
+      <p>　</p>
+      <p style="text-align:center">中陣でプレイすることもある？</p>
+      <ul class="flexbox fw">
+      <li class="even"><a class="btn" href="#racket_06">YES</a></li>
+      <li class="odd"><a class="btn" href="#racket_04">NO</a></li>
+      </ul>
+      </div>
+      <!-- 次の選択肢 -->
+
+      <div id="racket_04" style="display: none;">
+        <p>　</p>
+        <p>　</p>
+        <p style="text-align:center">台上プレイはできる？</p>
+        <ul class="flexbox fw">
+        <li class="even"><a class="btn" href="#racket_08">YES</a></li>
+        <li class="odd"><a class="btn" href="#racket_09">NO</a></li>
+        </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+      <div id="racket_05" style="display: none;">
+        <p>　</p>
+        <p>　</p>
+        <p style="text-align:center">回転かけたサーブ出せる？</p>
+        <ul class="flexbox fw">
+        <li class="even"><a class="btn" href="#racket_09">YES</a></li>
+        <li class="odd"><a class="btn" href="#racket_11">NO</a></li>
+        </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="racket_06" style="display: none;">
+          <p>　</p>
+          <p>　</p>
+          <p style="text-align:center">ボールに回転をかけるのは得意？</p>
+          <ul class="flexbox fw">
+          <li class="even"><a class="btn" href="#racket_12">YES</a></li>
+          <li class="odd"><a class="btn" href="#racket_08">NO</a></li>
+          </ul>
+          </div>
+          <!-- 次の選択肢 -->
+
+          <div id="racket_08" style="display: none;">
+            <p>　</p>
+            <p>　</p>
+            <p style="text-align:center">大会でも強気なプレイができる？</p>
+            <ul class="flexbox fw">
+            <li class="even"><a class="btn" href="#racket_14">YES</a></li>
+            <li class="odd"><a class="btn" href="#racket_15">NO</a></li>
+            </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+        <div id="racket_09" style="display: none;">
+          <p>　</p>
+          <p>　</p>
+          <p style="text-align:center">ラケットは重い方がいい？</p>
+          <ul class="flexbox fw">
+          <li class="even"><a class="btn" href="#racket_16">YES</a></li>
+          <li class="odd"><a class="btn" href="#racket_17">NO</a></li>
+          </ul>
+          </div>
+          <!-- 次の選択肢 -->
+
+        <div id="racket_12" style="display: none;">
+          <p>　</p>
+          <p>　</p>
+          <p style="text-align:center">打球感は硬い方がいい？</p>
+          <ul class="flexbox fw">
+          <li class="even"><a class="btn" href="#racket_18">YES</a></li>
+          <li class="odd"><a class="btn" href="#racket_14">NO</a></li>
+          </ul>
+          </div>
+          <!-- 次の選択肢 -->
+      <div id="racket_14" style="display: none;">
+        <p>　</p>
+        <p>　</p>
+        <p style="text-align:center">よく弾む方がいい？</p>
+        <ul class="flexbox fw">
+        <li class="even"><a class="btn" href="#racket_20">YES</a></li>
+        <li class="odd"><a class="btn" href="#racket_21">NO</a></li>
+        </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+      <div id="racket_15" style="display: none;">
+        <p>　</p>
+        <p>　</p>
+        <p style="text-align:center">まずは返球することに重点を置きたい？</p>
+        <ul class="flexbox fw">
+        <li class="even"><a class="btn" href="#racket_22">YES</a></li>
+        <li class="odd"><a class="btn" href="#racket_23">NO</a></li>
+        </ul>
+        </div>
+        <!-- 次の選択肢 -->
+
+        <div id="racket_18" style="display: none;">
+          <p>　</p>
+          <p>　</p>
+          <p style="text-align:center">グリップは細い方がいい？</p>
+          <ul class="flexbox fw">
+          <li class="even"><a class="btn" href="#racket_24">YES</a></li>
+          <li class="odd"><a class="btn" href="#racket_25">NO</a></li>
+          </ul>
+          </div>
+          <!-- 次の選択肢 -->
+
+        <div id="racket_25" style="display: none;">
+          <p>　</p>
+          <p>　</p>
+          <p style="text-align:center">値段は高くてもいい？</p>
+          <ul class="flexbox fw">
+          <li class="even"><a class="btn" href="#racket_26">YES</a></li>
+          <li class="odd"><a class="btn" href="#racket_27">NO</a></li>
+          </ul>
+          </div>
+          <!-- 次の選択肢 -->
+
+          <div id="racket_24" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>松平健太 ALC</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/36821.html"target="_blank"><img src="kenta_alc.jpeg" alt="松平健太 ALC" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/36821.html</a> </div>
+            <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+                <summary>分析結果</summary>
+                <div class="details-content">
+                  <p>前陣でも中陣でもプレイするあなたには 松平健太 ALC!<br>細いグリップで切り返しがしやすいため速い攻撃を仕掛けていこう</p>
+                </div>
+            </details>
+            
+          </div>
+
+          <div id="racket_26" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>ビスカリア</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/30041.html"target="_blank"><img src="viscaria.jpeg" alt="ビスカリア" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/30041.html</a> </div>
+            <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+                <summary>分析結果</summary>
+                <div class="details-content">
+                  <p>さらに強くなりたいあなたには ビスカリア!<br>攻守ともにあなたの理想のボールを打つことができるよ</p>
+                </div>
+            </details>
+            
+          </div>
+
+          <div id="racket_27" style="display: none;">
+            <p style="text-align:center">あなたにおすすめなのは…</p>
+            <h4>張継科 ALC</h4>
+            <p></p>
+            
+            <div class="box"><a href="https://www.butterfly.co.jp/products/detail/36561.html"target="_blank"><img src="jike_alc.jpeg" alt="張継科 ALC" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/36561.html</a> </div>
+            <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <details>
+                <summary>分析結果</summary>
+                <div class="details-content">
+                  <p>よく弾むラケットを使いたいあなたには 張継科 ALC!<br>回転を意識してプレイしよう!</p>
+                </div>
+            </details>
+            
+          </div>
+
+      <div id="racket_20" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>インナーフォースレイヤー ZLC</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.butterfly.co.jp/products/detail/36681.html"target="_blank"><img src="innerforce_zlc.jpeg" alt="インナーフォースレイヤー ZLC" width="300" height="300" style="display: block; margin: auto;">出典：https://www.butterfly.co.jp/products/detail/36681.html</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>アウターより柔らかめで弾んで欲しいあなたには インナーフォースレイヤーZLC！<br>インナーの中でも弾むラケットで強気に振っていこう!</p>
+            </div>
+        </details>
+        
+      </div>
+
+      <div id="racket_21" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>フォルティウス FT ver.D</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.mizunoshop.net/f/dsg-733592"target="_blank"><img src="fortus_d.jpeg" alt="フォルティウス FT ver.D" width="300" height="300" style="display: block; margin: auto;">出典：https://www.mizunoshop.net/f/dsg-733592</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+            <p>木材に近い打球感で弾むラケットを好むあなたには フォルティウスFT ver.D! <br>質の高いドライブで点をもぎ取ろう!</p>
+            </div>
+        </details>
+        
+      </div>
+
+      <div id="racket_22" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>KOKI NIWA WOOD</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/koki-niwa-wood"target="_blank"><img src="kokiniwa.png" alt="KOKI NIWA WOOD" width="300" height="300" style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/koki-niwa-wood</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>入れることに重点を置きたいあなたには KOKI NIWA WOOD! <br>弾まず回転がかけやすいのでそこを意識してプレイしよう!</p>
+            </div>
+        </details>
+        
+      </div>
+      <div id="racket_23" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>スワット パワー</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/swat-power"target="_blank"><img src="swat_powar.jpeg" alt="スワット パワー" width="300" height="300" style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/swat-power</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>特殊素材ラケットより弾まず威力を出したいあなたには スワットパワー! <br>ミスを恐れずに振っていこう!</p>
+            </div>
+        </details>
+        
+      </div>
+
+      <div id="racket_16" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>馬琳エキストラスペシャル</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.yasakajp.com/items/malin_extra_special/"target="_blank"><img src="malinexs.jpeg" alt="馬琳エキストラスペシャル" width="300" height="300" style="display: block; margin: auto;">出典：https://www.yasakajp.com/items/malin_extra_special/</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>回転をかけやすく威力を出したいあなたには 馬琳エキストラスペシャル! <br>台上プレイから回転をかけて先手を取ろう!</p>
+            </div>
+        </details>
+        
+      </div>
+
+      <div id="racket_17" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>アルティウス</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.mizunoshop.net/disp/CSfGoodsPage_001.jsp?GOODS_NO=739501"target="_blank"><img src="altius.jpeg" alt="アルティウス" width="300" height="300" style="display: block; margin: auto;">出典：https://www.mizunoshop.net/disp/CSfGoodsPage_001.jsp?GOODS_NO=739501</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>まだ発展途上のあなたには軽くて弾む アルティウス! <br>たまもちの良さを活かして色々な技術を習得しよう!</p>
+            </div>
+        </details>
+        
+      </div>
+
+      <div id="racket_11" style="display: none;">
+        <p style="text-align:center">あなたにおすすめなのは…</p>
+        <h4>スワット 5PW</h4>
+        <p></p>
+        
+        <div class="box"><a href="https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/swat-5pw"target="_blank"><img src="swat_5.jpeg" alt="スワット 5PW" width="300" height="300" style="display: block; margin: auto;">出典：https://www.victas.com/ja_jp/products/blade/shakehand_racket/offensive/swat-5pw</a> </div>
+        <a class="titlebuck" href="#q_01">タイトルにもどる</a>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <p>　</p>
+        <details>
+            <summary>分析結果</summary>
+            <div class="details-content">
+              <p>始めたばかりのあなたには木材で5枚の スワット 5PW! <br>まずは回転をかけることを意識して練習していこう!</p>
+            </div>
+        </details>
+        
+      </div>
+    
+  </div>
