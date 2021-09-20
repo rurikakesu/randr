@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+   
+    
+    text-decoration: none;
+    background-color: #e74c3c;
+    animation: bg-color 20s infinite;
+    -webkit-animation: bg-color 20s infinite;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "Yu Gothic", YuGothic, sans-serif;
+  }
+  #wrap{ 
+    width: 960px;	   /*全体の幅を指定する*/  
+    margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+    text-align:left;   /*全体を左揃えにする。*/
+  }
+  @-webkit-keyframes bg-color {
+    0% { background-color: #e74c3c; }
+    20% { background-color: #f1c40f; }
+    40% { background-color: #1abc9c; }
+    60% { background-color: #3498db; }
+    80% { background-color: #9b59b6; }
+    100% { background-color: #e74c3c; }
+  }
+  @keyframes bg-color {
+    0% { background: radial-gradient(#0255c2, #000000); }
+    10% { background: radial-gradient( #02339c,#000000); }
+    20% { background: radial-gradient(#11029c, #000000); }
+    30% { background: radial-gradient( #3203a1,#000000); }
+    40% { background: radial-gradient(#7e04cf, #000000); }
+    50% { background: radial-gradient( #a1035a,#000000); }
+    60% { background: radial-gradient(#cf049c, #000000); }
+    70% { background: radial-gradient( #4b0381,#000000); }
+    80% { background: radial-gradient(#0455cf, #000000); }
+    90% { background: radial-gradient( #000a8f,#000000); }
+    100% { background: radial-gradient(#0255c2, #000000); }
+  }
+  .choose_box {
+    position: relative;
+    height: 50vw;
+    width: 100%;
+  }
+   .choose_box p {
+      font-size: 24px;
+      display: block;
+      font-weight: 600;
+      text-align: center;
+    }
+   
+  .choose_box ul {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+     display:flex;
+    flex-wrap: wrap;
+  }
+  .choose_box ul li {
+    width: calc(100% / 2 - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+   
+  .choose_box ul li:nth-child(2n) {
+     margin-right: 0;
+  }
+  .choose_box ul li a {
+    color: #fff;
+    display: block;
+    padding: 20px 60px;
+    text-align: center;
+    background-color: #2791d4;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #2791d4;
+    text-decoration: none;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+   
+  .choose_box ul li a:hover {
+     background-color: #fff;
+    color: #2791d4;
+      -webkit-transition: 0.7s;
+      -moz-transition: 0.7s;
+      -o-transition: 0.7s;
+      transition: 0.7s;
+      font-size: 2em;/*文字サイズ2倍*/
+      font-weight: bold;
+  }
+   
+  h4 {
+      width: 40%;
+      clear: both;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      border-radius: 50rem;
+    background-color: #C00003;
+    }
+    a:hover{
+        color : #ff7043;
+    }
+    .titlebuck{
+        top: 50px;
+        left: 5%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    a.titlebuck{
+        transition: 0.3s all;
+        position: static;
+        display: inline-block;
+        height: 50px;
+        line-height: 50px;
+        width: 150px;
+        
+        background: #6b4dee;
+        border-radius: 50rem;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        
+        
+    }
+    a.titlebuck:hover,
+    a.titlebuck:active, 
+    a.titlebuck:focus {
+        opacity: 0.4;
+    }
+    a {
+      color: rgb(180, 184, 185);
+      text-decoration: none;
+    }
+    a:active{
+        color : #26a69a;
+    }
+    a::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        content: '';
+        width: 0;
+        height: 2px;
+        background-color: #31aae2;
+        transition: .3s;
+        transform: translateX(-50%);
+    }
+    a:hover::after{
+        width: 70%;
+    }
+    a:hover img {
+      filter: alpha(opacity=70);
+      -moz-opacity: 0.7;
+      opacity: 0.7;
+      /*画像を70%の不透明度に
+      もし50%にしたいときは
+      上から50、0.5、0.5にします*/
+    }
+    p{
+        line-height: 2;
+    }
+  .fit {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 100%;
+  }
+  #rubber_24 span,#racket_24 span,#racket_11 span,#racket_17 span,#racket_16 span,#racket_23 span,#racket_22 span,#racket_21 span,#racket_20 span,#racket_27 span,#racket_26 span,#rubber_11 span,#rubber_09 span,#rubber_35 span,#rubber_34 span,#rubber_33 span,#rubber_23 span,#rubber_30 span, #rubber_25 span,#rubber_31 span,#rubber_32 span,#rubber_26 span{
+    position: absolute;
+    display: block;
+    height: 15%;
+    width:50%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+  }
+  #rubber_24 a,#racket_24 a,#racket_11 a,#racket_17 a,#racket_16 a,#racket_23 a,#racket_22 a,#racket_21 a,#racket_20 a,#racket_27 a,#racket_26 a,#rubber_11 a,#rubber_09 a,#rubber_35 a,#rubber_34 a,#rubber_33 a,#rubber_23 a,#rubber_30 a,#rubber_25 a ,#rubber_31 a,#rubber_32 a,#rubber_26 a{
+    position: absolute;
+    display: block;
+    
+    text-align: center;
+  }
+  .box{
+    transition: 0.3s all;
+        font-size: 1;
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        top: 150px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .box a{
+        position: absolute;
+        display: block;
+        text-align: center;
+    }
+    summary {
+      cursor: pointer;
+      text-align: center;
+      transition: 0.2s; /* 変化を滑らかに */
+      font-size: large;
+      padding: 10px 10px 10px 10px; /* アイコンの余白を開ける */
+    }
+    /* ホバー時のスタイル */
+    summary:hover {
+      cursor: pointer; /* カーソルを指マークに */
+      background-color: #4805c4;
+    }
+    details[open] .details-content {
+        animation: fadeIn 0.7s ease;
+        
+      }
+    @keyframes fadeIn {
+        0% {
+            opacity: 0; /* 透明 */
+            transform: translateY(-10px); /* 上から表示 */
+        }
+        100% {
+            opacity: 1;
+            transform: none;
+        }
+    }
+    
+    
