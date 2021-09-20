@@ -89,6 +89,7 @@ body {
       transition: 0.7s;
       font-size: 2em;/*文字サイズ2倍*/
       font-weight: bold;
+      
   }
    
   h4 {
@@ -105,6 +106,8 @@ body {
     }
     a:hover{
         color : #ff7043;
+        
+        
     }
     .titlebuck{
         top: 50px;
@@ -132,6 +135,7 @@ body {
     a.titlebuck:active, 
     a.titlebuck:focus {
         opacity: 0.4;
+        
     }
     a {
       color: rgb(180, 184, 185);
@@ -147,12 +151,13 @@ body {
         content: '';
         width: 0;
         height: 2px;
-        background-color: #31aae2;
+        background-color: #66b0f5;
         transition: .3s;
         transform: translateX(-50%);
     }
     a:hover::after{
-        width: 70%;
+      width: 100%;
+        
     }
     a:hover img {
       filter: alpha(opacity=70);
@@ -232,5 +237,16 @@ body {
             transform: none;
         }
     }
-    
+    .waraebi {
+      position: absolute;
+      top: 96%;
+      left: 60%;
+      
+    }
+    .tabletennis {
+      position: absolute;
+      top: 5%;
+      left: 9%;
+      
+    }
     
