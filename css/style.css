@@ -67,8 +67,10 @@ margin-right: auto;
   }
   .choose_box {
     position: relative;
-    height: 50vw;
+    height: 50%;
     width: 100%;
+    top: 5%;
+    text-align: center;
   }
    .choose_box p {
       font-size: 150%;
@@ -101,7 +103,7 @@ margin-right: auto;
     text-align: center;
     background-color: #2791d4;
     font-weight: 600;
-    font-size: 150%;
+    font-size: 130%;
     border: 2px solid #2791d4;
     text-decoration: none;
     -webkit-border-radius: 6px;
@@ -141,7 +143,7 @@ margin-right: auto;
     .titlebuck{
         top: 50px;
         left: 5%;
-        font-size: 100%;
+        font-size: 80%;
         text-align: center;
         align-items: center;
         justify-content: center;
@@ -152,7 +154,7 @@ margin-right: auto;
         display: inline-block;
         height: 50px;
         line-height: 50px;
-        width: 20%;
+        width: 15%;
         
         background: #6b4dee;
         border-radius: 50rem;
