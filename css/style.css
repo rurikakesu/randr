@@ -53,7 +53,7 @@ margin-right: auto;
     100% { background-color: #e74c3c; }
   }
   @keyframes bg-color {
-    0% { background: radial-gradient(#0255c2, #000000); }
+    0% { background: radial-gradient(#0255c2, #b80e0e); }
     10% { background: radial-gradient( #02339c,#000000); }
     20% { background: radial-gradient(#11029c, #000000); }
     30% { background: radial-gradient( #3203a1,#000000); }
